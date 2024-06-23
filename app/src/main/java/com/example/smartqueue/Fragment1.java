@@ -73,6 +73,8 @@ public class Fragment1 extends Fragment {
 
             mAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+
+
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
@@ -119,4 +121,4 @@ public class Fragment1 extends Fragment {
 
 }
     }
-}
+
