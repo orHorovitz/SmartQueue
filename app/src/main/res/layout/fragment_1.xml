@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1"
+    android:backgroundTint="@color/light_blue">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:hint="username"
+        android:layout_weight="0.7"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_margin="20dp"
+        android:id="@+id/email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:hint="password"
+        android:layout_weight="0.7"
+        android:textSize="40sp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_margin="20dp"
+        android:id="@+id/password"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_height="3dp"
+        android:layout_weight="0.7"
+        android:text="login"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_height="5dp"
+        android:layout_weight="0.7"
+        android:text="register"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent" />
+
+
+
+</LinearLayout>
+
